@@ -12,6 +12,7 @@ int main()
 
 	cout << *pointer<< endl;
 
+	cout<< "Test " << endl;
 
 	return 0;
 }
