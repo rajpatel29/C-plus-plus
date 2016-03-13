@@ -6,9 +6,7 @@ using namespace std;
 
 int main()
 {
-
 	Son son;
-	son.callMe();
 
 	return 0;
 }

@@ -12,7 +12,7 @@ class Father
 {
 	public:
 		Father();
-		void callMe();
+		~Father();
 };
 
 #endif /* FATHER_H_ */

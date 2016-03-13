@@ -1,5 +1,5 @@
 /*
- * Father.cpp
+ * Son.cpp
  *
  *  Created on: Mar 12, 2016
  *      Author: RutvikPatel
@@ -7,14 +7,15 @@
 
 #include <iostream>
 using namespace std;
+#include "Son.h"
 #include "Father.h"
 
-Father::Father()
+Son::Son()
 {
-
+	cout << "Son Constructor" << endl;
 }
 
-void Father::callMe()
+Son::~Son()
 {
-	cout << "In callMe method " << endl;
+	cout << "Son Destructor " << endl;
 }

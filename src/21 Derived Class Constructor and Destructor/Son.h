@@ -12,8 +12,9 @@
 
 class Son : public Father
 {
-public:
-	Son();
+	public:
+		Son();
+		~Son();
 };
 
 #endif /* SON_H_ */
